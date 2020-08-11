@@ -10,32 +10,6 @@
 	
 	<title>Ransom Quote Machine</title>
 	<script>
-		/* const QUOTEBANK =[{
-			author:"Confucious",
-			quote:"It does not matter how slowly you go as long as you do not stop"
-		},
-		{
-			author:"Confucious",
-			quote:"He who learns but does not think, is lost! He who thinks but does not learn is in great danger"
-		},
-		{
-			author:"Confucious",
-			quote:"When it is obvious that the goals cannot be reached, don't adjust the goals, adjust the action steps."
-		},
-		{
-			author:"Marilyn Monroe ",
-			quote:"I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best."
-		},
-		{
-			author:" Oscar Wilde ",
-			quote:"Be yourself; everyone else is already taken"
-		},
-		{
-			author:" Albert Einstein  ",
-			quote:"Two things are infinite: the universe and human stupidity; and I'm not sure about the universe."
-		},
-		
-	] */
 		window.onload = init;
 		function init(){
 			generateQuote();
@@ -78,7 +52,7 @@
 									<p class="card-text "><div id="author" ></div></p>
 									<button id="new-quote" onclick="generateQuote()" class="btn btn-block btn-success">New Quote</button>
 									<a href="#"  id="tweet-quote"  target="_blank" class="btn btn-block btn-primary">Tweet Quote</a>
-									
+									<button id="tweetButton" class="pointer"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i> Tweet Out</button>
 								</div>
 							
 						</div>
